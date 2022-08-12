@@ -1,0 +1,291 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Source+Sans+Pro:wght@300&display=swap');
+
+#content {
+    max-width: 3000px;
+    margin: 0 auto;
+    border: solid black 2px;
+}
+
+body {
+    background-color: white
+     ;
+}
+
+/*Heading content*/
+header {
+    max-width: 100%;
+    background-color: white;
+}
+
+.design {
+    margin-left: -50%;
+    height: 80%;
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+nav a {
+    letter-spacing: 10px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    padding-top: 800px;
+    padding-bottom: 50px;
+}
+
+.marriage {
+    margin-left: 36%;
+}
+
+.photos {
+    margin-left: 5%;
+}
+
+.gifts {
+    margin-left: 5%;
+}
+
+
+nav a:hover {
+    color: black;
+}
+
+/*Introduction*/
+
+.prenup {
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+div .first {
+    letter-spacing: 3px;
+    opacity:0.8;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+div .second {   
+    position: fixed;
+    letter-spacing: 3px;
+    font-family: 'Dancing Script';
+    font-size: 180px;
+    color: black;
+    position: absolute;
+    top: 24%;
+    left: 40%
+}
+
+div .third {
+    letter-spacing: 3px;
+    opacity:0.8;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+}
+
+div .third:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: -150px;
+    top: 50%;
+}
+
+div .third::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 350px;
+    top: 50%;
+}
+
+div .fourth {
+    letter-spacing: 3px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 60px;
+    color: black;
+    position: absolute;
+    top: 44%;
+    left: 45.5%;
+}
+
+/*SECONDARY*/
+.flower {
+    position: absolute;
+    margin-left: 27%;
+    top: 144%;
+}
+
+div .ourstory {
+    padding-top: 10%;
+    font-size: 100px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+}
+
+div .story-msg {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif; 
+}
+
+.ashlee {
+    margin-left: 5%;
+    padding-top: 3%;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 60px;
+    text-align: left;
+}
+
+.ashlee_story {
+    margin-left: 10%;
+    margin-right: 30%;
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: left;
+}
+
+.circle_photo {
+    text-align: center;
+}
+
+
+.quote {
+    font-family: 'Ibarra Real Nova', serif;
+    color: black;
+    border: black solid 8px;
+    width: 80%;
+    margin-top: -3%;
+    margin-left: 10%;
+    padding-bottom: 5px;
+    font-size: 100px;
+    text-align: center;
+}
+
+div .quote-sign {
+    text-align: center;
+}
+
+div .president {
+    font-size: 70px;
+}
+
+div .date {
+    font-size: 40px;
+}
+
+div .quote:before {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 340%;
+    left: 32%;
+}
+
+div .quote:after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 340%;
+    left: 59%;
+}
+
+.our_photo {
+    height: 50%;
+    width: 50%;
+}
+
+.harold {
+    margin-right: 5%;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 60px;
+    text-align: right;
+}
+
+.harold_story {
+    margin-right: 10%;
+    margin-left: 30%;
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: left;
+}
+
+
+div .testimony {
+        padding-top: 10%;
+        font-size: 100px;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+}
+
+div .our_testimony {
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+}
+
+
+/*Footer content*/
+#footer-content {
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+footer {
+    font-size: 50px;
+    background-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-title {
+    color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+footer h3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
