@@ -3,6 +3,7 @@ font-family: 'Ibarra Real Nova', serif;
 font-family: 'Source Sans Pro', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Source+Sans+Pro:wght@300&display=swap');
 
+
 #content {
     max-width: 3000px;
     margin: 0 auto;
@@ -61,12 +62,15 @@ nav a:hover {
 /*Introduction*/
 
 .prenup {
+    border-radius: 20px;
     margin-left: 5%;
     width: 90%;
     height: 100%;
+    box-shadow: 10px 15px 15px black;
+    border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
-div .first {
+div .header-first {
     letter-spacing: 3px;
     opacity:0.8;
     font-family: 'Ibarra Real Nova', serif;
@@ -77,18 +81,18 @@ div .first {
     left: 45%;
 }
 
-div .second {   
+div .header-second {   
     position: fixed;
     letter-spacing: 3px;
-    font-family: 'Dancing Script';
+    font-family: 'Ibarra Real Nova', serif;
     font-size: 180px;
     color: black;
     position: absolute;
     top: 24%;
-    left: 40%
+    left: 38%
 }
 
-div .third {
+div .header-third {
     letter-spacing: 3px;
     opacity:0.8;
     font-family: 'Ibarra Real Nova', serif;
@@ -99,7 +103,7 @@ div .third {
     left: 47%;
 }
 
-div .third:before {
+div .header-third:before {
     content: "";
     display: block;
     width: 120px;
@@ -110,7 +114,7 @@ div .third:before {
     top: 50%;
 }
 
-div .third::after {
+div .header-third::after {
     content: "";
     display: block;
     width: 120px;
@@ -121,7 +125,7 @@ div .third::after {
     top: 50%;
 }
 
-div .fourth {
+div .header-fourth {
     letter-spacing: 3px;
     font-family: 'Ibarra Real Nova', serif;
     font-size: 60px;
@@ -145,11 +149,12 @@ div .ourstory {
     text-align: center;
 }
 
-div .story-msg {
+/*div .story-msg {
+    letter-spacing: 1.5px;
     text-align: center;
     font-size: 50px;
     font-family: 'Ibarra Real Nova', serif; 
-}
+}*/
 
 .ashlee {
     margin-left: 5%;
@@ -166,6 +171,41 @@ div .story-msg {
     font-family: 'Ibarra Real Nova', serif;
     text-align: left;
 }
+
+#check-ashlee {
+    display: none;
+}
+
+#check-ashlee:checked ~ .ashlee-content{
+    display: block;
+}
+
+.ashlee-content {
+    display: none;
+    transition: 0.5s linear;    
+}
+
+#check-harold {
+    display: none;
+}
+
+#check-harold:checked ~ .harold-content{
+    display: block;
+}
+
+.harold-content {
+    display: none;
+    transition: 0.5s linear;  
+}
+
+label {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    cursor: pointer;
+    font-weight: 600 ;
+}
+
 
 .circle_photo {
     text-align: center;
@@ -203,7 +243,7 @@ div .quote:before {
     height: 5px;
     background-color: black;
     position: absolute;
-    top: 340%;
+    top: 330%;
     left: 32%;
 }
 
@@ -214,13 +254,15 @@ div .quote:after {
     height: 5px;
     background-color: black;
     position: absolute;
-    top: 340%;
+    top: 330%;
     left: 59%;
 }
 
 .our_photo {
     height: 50%;
     width: 50%;
+    box-shadow: 5px 10px 10px black;
+    border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
 .harold {
@@ -240,18 +282,53 @@ div .quote:after {
 
 
 div .testimony {
-        padding-top: 10%;
         font-size: 100px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
 }
 
 div .our_testimony {
+    margin-right: 5%;
+    margin-left: 5%;
     font-size: 50px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
 }
 
+.boquet-img {
+    text-align: center;
+}
+
+.boquet {
+    width: 60%;
+    height: 60%;
+    box-shadow: 5px 10px 10px black;
+    border: 10px solid #d9c2a3;    transition: transform .5s;
+}
+
+div .line {
+    background-color: black;
+}
+
+.gift-msg {
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+}
+
+.gift-msg-name {
+    margin-top: -3%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 80px;
+}
+
+.gift-msg-date {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: -3%;
+}
 
 /*Footer content*/
 #footer-content {
