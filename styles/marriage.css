@@ -6,7 +6,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 #content {
     max-width: 3000px;
     margin: 0 auto;
-    border: solid black 2px;
+    border: solid black 2.5px;
 }
 
 body {
