@@ -22,9 +22,9 @@ body {
 }
 
 .design {
-    margin-left: -30%;
-    height: 80%;
-    width: 80%;
+    margin-left: 0%;
+    height: 40%;
+    width: 40%;
 }
 
 nav {
@@ -38,7 +38,7 @@ nav a {
     font-size: 20px;
     color: black;
     text-decoration: none; 
-    padding-top: 400px;
+    padding-top: 70px;
     padding-bottom: 50px;
     margin-left: 17.5%;
 }
@@ -55,20 +55,17 @@ div .header-first {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
     color: black;
-    position: absolute;
     top: 38%;
-    left: 41.5%;
+    margin-left: 36%;
 }
 
 div .header-second {   
-    position: fixed;
     letter-spacing: 3px;
     font-family: 'Ibarra Real Nova', serif;
     font-size: 60px;
     color: black;
-    position: absolute;
-    top: 40%;
-    left: 36%
+    margin-top: -1%;
+    margin-left: 26%
 }
 
 div .header-third {
@@ -77,31 +74,36 @@ div .header-third {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
     color: black;
-    position: absolute;
-    top: 58%;
-    left: 45%;
+    margin-top: -2%;
+    margin-left: 41%;
 }
 
-div .header-third:before {
+.parent-line {
+    position: relative;
+}
+
+.date-line::before {
     content: "";
     display: block;
     width: 80px;
     height: 2px;
     background-color: black;
     position: absolute;
-    left: -100px;
-    top: 50%;
+    margin-top: -3.1%;
+    left: 31%;
+    opacity: .6;
 }
 
-div .header-third::after {
+.date-line::after {
     content: "";
     display: block;
     width: 80px;
     height: 2px;
     background-color: black;
     position: absolute;
-    left: 175px;
-    top: 50%;
+    margin-top: -3.1%;
+    left: 58.5%;
+    opacity: .6;
 }
 
 div .header-fourth {
@@ -109,53 +111,51 @@ div .header-fourth {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 20px;
     color: black;
-    position: absolute;
-    top: 64%;
-    left: 44.1%;
+    margin-left: 39.5%;
 }
 
 .prenup {
     border-radius: 20px;
-    margin-left: 5%;
+    margin-left: 4%;
     width: 90%;
     height: 100%;
-    box-shadow: 10px 15px 15px black;
+    box-shadow: 5px 10px 10px black;
     border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
 /*SECONDARY*/
-.flower {
-    position: relative;
-    left: 48%;
-    top: 350px;
+.flower-sign {
+    margin-left: 39%;
+    margin-top: 180px;
+    height: 100px;
 }
 
 div .ourstory {
-    padding-top: 10%;
-    font-size: 100px;
+    margin-top: -2%;
+    font-size: 50px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
 }
 
-div .story-msg {
+/*div .story-msg {
     letter-spacing: 1.5px;
     text-align: center;
-    font-size: 50px;
+    font-size: 15px;
     font-family: 'Ibarra Real Nova', serif; 
-}
+}*/
 
 .ashlee {
     margin-left: 5%;
     padding-top: 3%;
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 60px;
+    font-size: 30px;
     text-align: left;
 }
 
 .ashlee_story {
     margin-left: 10%;
     margin-right: 30%;
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: left;
 }
@@ -201,17 +201,75 @@ label {
     text-align: center;
 }
 
-.quote {
-    background-color: rgb(96, 96, 187);
-    border-radius: 5%;
+
+.flower-parent {
+    position: relative;
+}
+
+.left-flower {
+    position: absolute;
+    top: 35%;
+    left: 81%;
+}
+
+.right-flower {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+.our_photo {
+    width: 50%;
+    box-shadow: 5px 10px 10px black;
+    border: 10px solid #d9c2a3;    transition: transform .5s;
+}
+
+.harold {
+    margin-right: 5%;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 30px;
+    text-align: right;
+}
+
+.harold_story {
+    margin-right: 10%;
+    margin-left: 30%;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: left;
+}
+
+
+div .testimony {
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+}
+
+.testimony-symbol {
+    height: 100px;
+    position: relative;
+    left: 25%;
+    top: 83px;
+}
+
+div .our_testimony {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+}
+
+.quote {    
     font-family: 'Ibarra Real Nova', serif;
     color: black;
-    border: black solid 8px;
+    border: black solid 5px;
     width: 80%;
     margin-top: -3%;
     margin-left: 10%;
     padding-bottom: 5px;
-    font-size: 100px;
+    font-size: 40px;
     text-align: center; 
 }
 
@@ -220,76 +278,35 @@ div .quote-sign {
 }
 
 div .president {
-    font-size: 70px;
+    font-size: 30px;
 }
 
-div .date {
-    font-size: 40px;
+.date {
+    font-size: 20px;
 }
 
-div .quote:before {
+.quote-line::before {
     content: "";
     display: block;
-    width: 500px;
-    height: 10px;
+    width: 80px;
+    height: 2px;
     background-color: black;
     position: absolute;
-    top: 322%;
-    left: 32%;
+    margin-top: -10.1%;
+    left: 23%;
+    opacity: .6;
 }
 
-div .quote:after {
+.quote-line::after {
     content: "";
     display: block;
-    width: 500px;
-    height: 10px;
+    width: 80px;
+    height: 2px;
     background-color: black;
     position: absolute;
-    top: 322%;
-    left: 59%;
-}
-
-.our_photo {
-    width: 50%;
-    height: 50%;
-    box-shadow: 5px 10px 10px black;
-    border: 10px solid #d9c2a3;    transition: transform .5s;
-}
-
-.harold {
-    margin-right: 5%;
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 60px;
-    text-align: right;
-}
-
-.harold_story {
-    margin-right: 10%;
-    margin-left: 30%;
-    font-size: 50px;
-    font-family: 'Ibarra Real Nova', serif;
-    text-align: left;
-}
-
-
-div .testimony {
-    font-size: 100px;
-    font-family: 'Ibarra Real Nova', serif;
-    text-align: center;
-}
-
-.testimony-symbol {
-    position: relative;
-    left: 49%;
-    top: 120px;
-}
-
-div .our_testimony {
-    margin-right: 5%;
-    margin-left: 5%;
-    font-size: 50px;
-    font-family: 'Ibarra Real Nova', serif;
-    text-align: center;
+    margin-top: -10.1%;
+    left: 70%;
+    opacity: .6;
 }
 
 .boquet-img {
@@ -300,16 +317,11 @@ div .our_testimony {
     width: 60%;
     height: 60%;
     box-shadow: 5px 10px 10px black;
-    border: 10px solid #d9c2a3;    transition: transform .5s;
-}
-
-
-div .line {
-    background-color: black;
+    border: 2px solid #d9c2a3;    transition: transform .5s;
 }
 
 .gift-msg {
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
 }
@@ -318,11 +330,10 @@ div .line {
     margin-top: -3%;
     text-align: center;
     letter-spacing: 3px;
-    font-size: 80px;
+    font-size: 30px;
 }
 
 .gift-msg-date {
-    font-size: 50px;
     text-align: center;
     font-family: 'Ibarra Real Nova', serif;
     margin-top: -3%;
@@ -330,41 +341,40 @@ div .line {
 
 /*Footer content*/
 #footer-content {
-    max-width: 3000px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 footer {
-    font-size: 50px;
-    background-color: black;
-    font-family: 'Ibarra Real Nova', serif;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+    background-color: #d9c2a3   ;
+   display: flex;
 }
 
 footer a {
-    color: white;
+    color: black;
+    position: static;
+    letter-spacing: 10px;
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    margin-left: 1.5%;
 }
 
 .footer-title {
-    color: white;
+    font-size: 20px;
+    margin-left: 45%;
 }
 
-footer .social img {
-    padding-top: 15px;
-}
-
-
-footer h3 a:hover {
-    color: white;
+footer  a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
-
+@media all and (max-width: 900px) {
+    #content {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 }
