@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.slider{
+    width: 800px;
+    height: 800px;
+    background: url(/images/prenup.PNG);
+    margin: 100% auto;
+    animation: slides 5s infinite;
+}
+
+@keyframes slides {
+    0%{
+        background:url(/images/a.jpg) ;
+    }
+    10%{
+        background:url(/images/b.jpg) ;
+    }
+    20%{
+        background:url(/images/wring.JPG) ;
+    }
+}
