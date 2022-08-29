@@ -8,7 +8,6 @@ font-family: 'Source Sans Pro', sans-serif; */
 #content {
     max-width: 1000px;
     margin: 0 auto;
-    border: solid black 2.5px;
 }
 
 body {
@@ -45,6 +44,7 @@ nav a {
 
 nav a:hover {
     color: violet;
+    text-decoration: underline;
 }
 
 /*Introduction*/
@@ -170,6 +170,16 @@ div .ourstory {
     display: block;
 }
 
+#check-ashlee:checked ~ label{
+    visibility: hidden;
+}
+
+#check-ashlee:checked ~ label:after {
+    content: 'Show Less';
+    display: block;
+    visibility: visible;
+}
+
 .ashlee-content {
     display: none;
     transition: 0.5s linear;    
@@ -181,6 +191,16 @@ div .ourstory {
 
 #check-harold:checked ~ .harold-content{
     display: block;
+}
+
+#check-harold:checked ~ label{
+    visibility: hidden;
+}
+
+#check-harold:checked ~ label:after {
+    content: 'Show Less';
+    display: block;
+    visibility: visible;
 }
 
 .harold-content {
@@ -321,9 +341,12 @@ div .president {
 }
 
 .gift-msg {
+    background-color: #d9c2a3;
     font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
+    border: 2px solid black;
+    margin: 10px;
 }
 
 .gift-msg-name {
