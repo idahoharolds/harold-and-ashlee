@@ -469,32 +469,30 @@ footer  a:hover {
     
     /*Heading content*/
     .heart {
-        margin-left: 35%;
+        margin-left: 60%;
     }
     
     .design {
         margin-left: 0%;
-        height: 60%;
-        width: 60%;
+        height: 80%;
+        width: 80%;
     }
     
     nav {
         display: flex;
         font-family: 'Ibarra Real Nova', serif;
         transition: transform .5s;
-        flex-direction: column;
         text-align: center;
     }
     
     nav a {
         letter-spacing: 10px;
         font-family: 'Ibarra Real Nova', serif;
-        font-size: 20px;
+        font-size: 30px;
         color: black;
         text-decoration: none; 
-        padding-top: 70px;
         padding-bottom: 50px;
-        margin-left: 17.5%;
+        margin-left: 15%;
     }
     
     nav a:hover {
@@ -511,7 +509,7 @@ footer  a:hover {
         font-size: 22px;
         color: black;
         top: 38%;
-        margin-left: 5%;
+        margin-left: 53%;
         text-align: center;
     }
     
@@ -522,7 +520,7 @@ footer  a:hover {
         font-size: 73px;
         color: black;
         margin-top: -1%;
-        margin-left: 5%;
+        margin-left: 45%;
         text-align: center;
 
     }
@@ -534,7 +532,7 @@ footer  a:hover {
         font-size: 15px;
         color: black;
         margin-top: -2%;
-        margin-left: 34%;
+        margin-left: 55%;
     }
     
     .parent-line {
@@ -549,7 +547,7 @@ footer  a:hover {
         background-color: black;
         position: absolute;
         margin-top: -7.5%;
-        left: 10%;
+        left: 30%;
         opacity: .6;
     }
     
@@ -561,7 +559,7 @@ footer  a:hover {
         background-color: black;
         position: absolute;
         margin-top: -7.5%;
-        left: 76%;
+        left: 98%;
         opacity: .6;
     }
     
@@ -570,38 +568,56 @@ footer  a:hover {
         font-family: 'Ibarra Real Nova', serif;
         font-size: 20px;
         color: black;
-        margin-left: 39.5%;
+        margin-left: 52%;
     }
     
     .prenup {
         border-radius: 20px;
         margin-left: 4%;
-        width: 90%;
-        height: 100%;
+        width: 130%;
+        height: 130%;
         box-shadow: 5px 10px 10px rgb(56, 55, 55);
         border: 10px solid #d9c2a3;    transition: transform .5s;
     }
     
     /*SECONDARY*/
     .flower-sign {
-        margin-left: 39%;
+        margin-left: 55%;
         margin-top: 180px;
-        height: 100px;
+        height: 70px;
     }
     
     div .ourstory {
         margin-top: -2%;
+        margin-left: 45%;
         font-size: 50px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
     }
     
-    /*div .story-msg {
+    div .story-msg {
         letter-spacing: 1.5px;
         text-align: center;
-        font-size: 15px;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
-    }*/
+        margin-left: 13%;
+        margin-right: -30%;
+    }
+
+    .prophet {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Ibarra Real Nova', serif; 
+        margin-left: 43%;
+    }
+
+    .story-intro {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Ibarra Real Nova', serif; 
+        margin-left: 13%;
+        margin-right: -30%;
+    }
     
     .ashlee {
         margin-left: 5%;
@@ -613,11 +629,10 @@ footer  a:hover {
     
     .ashlee_story {
         margin-left: 10%;
-        margin-right: 30%;
-        font-size: 20px;
+        margin-right: -30%;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: left;
-    
     }
     
     #check-ashlee { 
@@ -688,17 +703,18 @@ footer  a:hover {
     .left-flower {
         position: absolute;
         top: 35%;
-        left: 81%;
+        left: 130%;
     }
     
     .right-flower {
         position: absolute;
         top: 35%;
-        left: 3%;
+        left: -23%;
     }
     
     .our_photo {
-        width: 50%;
+        width: 100%;
+        margin-left: 20%;
         box-shadow: 5px 10px 10px black;
         border: 10px solid #d9c2a3;    transition: transform .5s;
     }
@@ -709,16 +725,16 @@ footer  a:hover {
     }
     
     .harold {
-        margin-right: 5%;
+        margin-right: -40%;
         font-family: 'Ibarra Real Nova', serif;
         font-size: 30px;
         text-align: right;
     }
     
     .harold_story {
-        margin-right: 10%;
-        margin-left: 30%;
-        font-size: 20px;
+        margin-left: 10%;
+        margin-right: -30%;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: left;
     }
@@ -733,21 +749,22 @@ footer  a:hover {
         font-size: 50px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
+        margin-left: 50%;
     }
     
     .testimony-symbol {
         height: 100px;
         position: relative;
-        left: 25%;
+        left: 17%;
         top: 83px;
     }
     
     div .our_testimony {
-        margin-right: 5%;
-        margin-left: 5%;
-        font-size: 20px;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: -45%;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
-        text-align: center;
         transition: transform .5s;
     }
     
@@ -762,15 +779,21 @@ footer  a:hover {
         color: black;
         border: black solid 5px;
         width: 80%;
-        margin-top: -3%;
-        margin-left: 10%;
+        margin-top: 20%;
+        margin-left: 32%;
         padding-bottom: 5px;
         font-size: 40px;
         text-align: center; 
     }
+
+    .quote-sign-parent {
+        position: absolute;
+    }
     
     div .quote-sign {
-        text-align: center;
+        position: relative;
+        margin-top: 50%;
+        margin-left: 340%;
     }
     
     div .president {
@@ -784,24 +807,24 @@ footer  a:hover {
     .quote-line::before {
         content: "";
         display: block;
-        width: 80px;
+        width: 50px;
         height: 2px;
         background-color: black;
         position: absolute;
-        margin-top: -10.1%;
-        left: 23%;
+        margin-top: -10.9%;
+        left: 50%;
         opacity: .6;
     }
     
     .quote-line::after {
         content: "";
         display: block;
-        width: 80px;
+        width: 50px;
         height: 2px;
         background-color: black;
         position: absolute;
-        margin-top: -10.1%;
-        left: 70%;
+        margin-top: -10.9%;
+        left: 84%;
         opacity: .6;
     }
     
@@ -809,7 +832,7 @@ footer  a:hover {
         margin-top: 2%;
         border-radius: 50%;
         position: relative;
-        left: 42%;
+        left: 53%;
         transition: transform .5s;
     }
     
@@ -829,10 +852,11 @@ footer  a:hover {
     }
     
     .gift-msg {
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
-        margin: 10px;
+        margin-left: 35px;
+        margin-right: -150px;
         padding: 3px;
         transition: transform .5s;
         background-color:#d9c2a3;
@@ -851,19 +875,19 @@ footer  a:hover {
     
     .gcash {
         position: absolute;
-        margin-top: -70px;
+        margin-top: -78px;
         margin-left: 75px;
     }
     
     .bdo {
         position: absolute;
         margin-left: 75px;
-        margin-top: -70px;
+        margin-top: -78px;
     }
     
     .ub {
         position: absolute;
-        margin-top: -70px;
+        margin-top: -78px;
         margin-left: 75px;
     }
     
