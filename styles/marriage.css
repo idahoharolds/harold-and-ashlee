@@ -8,6 +8,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 #content {
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #d9c2a3;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 nav {
     display: flex;
     font-family: 'Ibarra Real Nova', serif;
+    transition: transform .5s;
 }
 
 nav a {
@@ -44,7 +46,7 @@ nav a {
 
 nav a:hover {
     color: violet;
-    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 /*Introduction*/
@@ -119,7 +121,7 @@ div .header-fourth {
     margin-left: 4%;
     width: 90%;
     height: 100%;
-    box-shadow: 5px 10px 10px black;
+    box-shadow: 5px 10px 10px rgb(56, 55, 55);
     border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
@@ -158,8 +160,8 @@ div .ourstory {
     font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: left;
-}
 
+}
 
 #check-ashlee { 
     display: none;
@@ -244,6 +246,11 @@ label {
     border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
+.our_photo:hover {
+    opacity: .9;
+    transform: scale(1.1);
+}
+
 .harold {
     margin-right: 5%;
     font-family: 'Ibarra Real Nova', serif;
@@ -257,6 +264,11 @@ label {
     font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: left;
+}
+
+.firstmeet {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -279,6 +291,13 @@ div .our_testimony {
     font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
+    transition: transform .5s;
+}
+
+.our_testimony:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #d9c2a3;
 }
 
 .quote {    
@@ -329,6 +348,18 @@ div .president {
     opacity: .6;
 }
 
+.courting {
+    margin-top: 2%;
+    border-radius: 50%;
+    position: relative;
+    left: 42%;
+    transition: transform .5s;
+}
+
+.courting:hover {
+    transform: scale(1.1);
+}
+
 .boquet-img {
     text-align: center;
 }
@@ -341,12 +372,42 @@ div .president {
 }
 
 .gift-msg {
-    background-color: #d9c2a3;
     font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
-    border: 2px solid black;
     margin: 10px;
+    padding: 3px;
+    transition: transform .5s;
+    background-color:#d9c2a3;
+    border-radius: 5%;
+    position: relative;}
+
+.gift-msg:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #d9c2a3;
+}
+
+.gift-photo {
+    position: relative;
+}
+
+.gcash {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 75px;
+}
+
+.bdo {
+    position: absolute;
+    margin-left: 75px;
+    margin-top: -70px;
+}
+
+.ub {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 75px;
 }
 
 .gift-msg-name {
@@ -369,7 +430,7 @@ div .president {
 }
 
 footer {
-    background-color: #d9c2a3   ;
+   background-color: #d9c2a3   ;
    display: flex;
 }
 
@@ -384,6 +445,7 @@ footer a {
     margin-bottom: 20px;
     padding-left: 20%;
     margin-left: 1.5%;
+    transition: transform .5s;
 }
 
 .footer-title {
@@ -392,7 +454,7 @@ footer a {
 }
 
 footer  a:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 @media all and (max-width: 900px) {
