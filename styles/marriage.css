@@ -465,12 +465,11 @@ footer  a:hover {
     body {
         background-color: white;
         margin: 0;
-        margin-left: 15%;
     }
     
     /*Heading content*/
     .heart {
-        margin-left: 60%;
+        margin-left: 65%;
     }
     
     .design {
@@ -493,7 +492,7 @@ footer  a:hover {
         color: black;
         text-decoration: none; 
         padding-bottom: 50px;
-        margin-left: 15%;
+        margin-left: 19%;
     }
     
     nav a:hover {
@@ -514,7 +513,8 @@ footer  a:hover {
         font-size: 22px;
         color: black;
         top: 38%;
-        margin-left: 53%;
+        margin-left: 13%;
+        margin-right: -53%;
         text-align: center;
     }
     
@@ -525,19 +525,22 @@ footer  a:hover {
         font-size: 73px;
         color: black;
         margin-top: -1%;
-        margin-left: 45%;
+        margin-left: 35%;
+        margin-right: -30%;
         text-align: center;
 
     }
     
     div .header-third {
+        text-align:center;
         letter-spacing: 3px;
         opacity:0.8;
         font-family: 'Ibarra Real Nova', serif;
         font-size: 15px;
         color: black;
         margin-top: -2%;
-        margin-left: 55%;
+        margin-left: 15%;
+        margin-right: -50%;
     }
     
     .parent-line {
@@ -551,8 +554,8 @@ footer  a:hover {
         height: 2px;
         background-color: black;
         position: absolute;
-        margin-top: -7.5%;
-        left: 30%;
+        margin-top: -8.5%;
+        left: 35%;
         opacity: .6;
     }
     
@@ -563,17 +566,18 @@ footer  a:hover {
         height: 2px;
         background-color: black;
         position: absolute;
-        margin-top: -7.5%;
-        left: 98%;
+        margin-top: -8.5%;
+        left: 107%;
         opacity: .6;
     }
     
     div .header-fourth {
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         font-family: 'Ibarra Real Nova', serif;
         font-size: 20px;
         color: black;
-        margin-left: 52%;
+        margin-left: 59%;
+        margin-right: -50%;
     }
     
     .prenup {
@@ -587,14 +591,15 @@ footer  a:hover {
     
     /*SECONDARY*/
     .flower-sign {
-        margin-left: 55%;
+        margin-left: 63%;
         margin-top: 180px;
         height: 70px;
     }
     
     div .ourstory {
         margin-top: -2%;
-        margin-left: 45%;
+        margin-left: 50%;
+        margin-right: -90px;
         font-size: 50px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
@@ -605,15 +610,16 @@ footer  a:hover {
         text-align: center;
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
-        margin-left: 13%;
-        margin-right: -30%;
+        margin-left: 5%;
+        margin-right: -65%;
     }
 
     .prophet {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
-        margin-left: 43%;
+        margin-left: 53%;
+        margin-right: -45px;
     }
 
     .story-intro {
@@ -708,18 +714,18 @@ footer  a:hover {
     .left-flower {
         position: absolute;
         top: 35%;
-        left: 130%;
+        left: 120%;
     }
     
     .right-flower {
         position: absolute;
         top: 35%;
-        left: -23%;
+        left: -15%;
     }
     
     .our_photo {
         width: 100%;
-        margin-left: 20%;
+        margin-left: 30%;
         box-shadow: 5px 10px 10px black;
         border: 10px solid #d9c2a3;    transition: transform .5s;
     }
@@ -754,20 +760,21 @@ footer  a:hover {
         font-size: 50px;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
-        margin-left: 50%;
+        margin-left: 40%;
+        margin-right: -25%;
     }
     
     .testimony-symbol {
         height: 100px;
         position: relative;
-        left: 17%;
+        left: 27%;
         top: 83px;
     }
     
     div .our_testimony {
         text-align: left;
         margin-left: 10%;
-        margin-right: -45%;
+        margin-right: -60%;
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         transition: transform .5s;
@@ -785,7 +792,7 @@ footer  a:hover {
         border: black solid 5px;
         width: 80%;
         margin-top: 20%;
-        margin-left: 32%;
+        margin-left: 42%;
         padding-bottom: 5px;
         font-size: 40px;
         text-align: center; 
@@ -798,7 +805,7 @@ footer  a:hover {
     div .quote-sign {
         position: relative;
         margin-top: 50%;
-        margin-left: 340%;
+        margin-left: 400%;
     }
     
     div .president {
@@ -817,7 +824,7 @@ footer  a:hover {
         background-color: black;
         position: absolute;
         margin-top: -10.9%;
-        left: 50%;
+        left: 60%;
         opacity: .6;
     }
     
@@ -829,7 +836,7 @@ footer  a:hover {
         background-color: black;
         position: absolute;
         margin-top: -10.9%;
-        left: 84%;
+        left: 94%;
         opacity: .6;
     }
     
@@ -837,7 +844,7 @@ footer  a:hover {
         margin-top: 2%;
         border-radius: 50%;
         position: relative;
-        left: 53%;
+        left: 63%;
         transition: transform .5s;
     }
     
@@ -850,8 +857,9 @@ footer  a:hover {
     }
     
     .boquet {
-        width: 60%;
-        height: 60%;
+        width: 100%;
+        height: 100%;
+        margin-left: 30%;
         box-shadow: 5px 10px 10px black;
         border: 2px solid #d9c2a3;    transition: transform .5s;
     }
@@ -861,7 +869,7 @@ footer  a:hover {
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
         margin-left: 35px;
-        margin-right: -150px;
+        margin-right: -230px;
         padding: 3px;
         transition: transform .5s;
         background-color:#d9c2a3;
@@ -898,6 +906,8 @@ footer  a:hover {
     
     .gift-msg-name {
         margin-top: -3%;
+        margin-left: 10%;
+        margin-right: -50%;
         text-align: center;
         letter-spacing: 3px;
         font-size: 30px;
@@ -907,6 +917,7 @@ footer  a:hover {
         text-align: center;
         font-family: 'Ibarra Real Nova', serif;
         margin-top: -3%;
+        margin-left: 60%;
     }
     
     /*Footer content*/
@@ -936,7 +947,8 @@ footer  a:hover {
     
     .footer-title {
         font-size: 20px;
-        margin-left: 45%;
+        margin-left: 50%;
+        margin-right: -55%;
     }
     
 }
