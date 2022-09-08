@@ -611,7 +611,7 @@ footer  a:hover {
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
         margin-left: 5%;
-        margin-right: -65%;
+        margin-right: -55%;
     }
 
     .prophet {
@@ -944,7 +944,7 @@ footer  a:hover {
         margin-left: 1.5%;
         transition: transform .5s;
     }
-    
+
     .footer-title {
         font-size: 20px;
         margin-left: 50%;
