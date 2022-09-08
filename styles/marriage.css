@@ -312,7 +312,9 @@ div .our_testimony {
 }
 
 div .quote-sign {
+    position: relative;
     text-align: center;
+    left: 47.5%;
 }
 
 div .president {
