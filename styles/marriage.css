@@ -431,7 +431,7 @@ div .president {
 }
 
 footer {
-   background-color: #d9c2a3   ;
+   background-color: #d9c2a3;
    display: flex;
 }
 
@@ -769,7 +769,7 @@ footer  a:hover {
     .testimony-symbol {
         height: 100px;
         position: relative;
-        left: 27%;
+        left: 24%;
         top: 83px;
     }
     
@@ -929,7 +929,6 @@ footer  a:hover {
     }
     
     footer {
-       background-color: #d9c2a3   ;
        display: flex;
     }
     
