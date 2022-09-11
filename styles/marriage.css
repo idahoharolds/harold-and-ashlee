@@ -380,7 +380,6 @@ div .president {
     padding: 3px;
     transition: transform .5s;
     background-color:#d9c2a3;
-    border-radius: 5%;
     position: relative;}
 
 .gift-msg:hover {
@@ -470,7 +469,7 @@ footer  a:hover {
     }
     
     /*Heading content*/
-    .heart {
+    .heart {    
         margin-left: 65%;
     }
     
@@ -494,7 +493,7 @@ footer  a:hover {
         color: black;
         text-decoration: none; 
         padding-bottom: 50px;
-        margin-left: 19%;
+        margin-left: 18%;
     }
     
     nav a:hover {
@@ -584,7 +583,7 @@ footer  a:hover {
     
     .prenup {
         border-radius: 20px;
-        margin-left: 15%;
+        margin-left: 13%;
         width: 130%;
         height: 130%;
         box-shadow: 5px 10px 10px rgb(56, 55, 55);
@@ -600,7 +599,7 @@ footer  a:hover {
     
     div .ourstory {
         margin-top: -2%;
-        margin-left: 50%;
+        margin-left: 40%;
         margin-right: -90px;
         font-size: 50px;
         font-family: 'Ibarra Real Nova', serif;
@@ -727,7 +726,7 @@ footer  a:hover {
     
     .our_photo {
         width: 100%;
-        margin-left: 30%;
+        margin-left: 25%;
         box-shadow: 5px 10px 10px black;
         border: 10px solid #d9c2a3;    transition: transform .5s;
     }
@@ -769,14 +768,14 @@ footer  a:hover {
     .testimony-symbol {
         height: 100px;
         position: relative;
-        left: 24%;
+        left: 20%;
         top: 83px;
     }
     
     div .our_testimony {
         text-align: left;
         margin-left: 10%;
-        margin-right: -60%;
+        margin-right: -50%;
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         transition: transform .5s;
@@ -794,7 +793,7 @@ footer  a:hover {
         border: black solid 5px;
         width: 80%;
         margin-top: 20%;
-        margin-left: 42%;
+        margin-left: 38%;
         padding-bottom: 5px;
         font-size: 40px;
         text-align: center; 
@@ -807,7 +806,7 @@ footer  a:hover {
     div .quote-sign {
         position: relative;
         margin-top: 50%;
-        margin-left: 400%;
+        margin-left: 330%;
     }
     
     div .president {
@@ -826,7 +825,7 @@ footer  a:hover {
         background-color: black;
         position: absolute;
         margin-top: -10.9%;
-        left: 60%;
+        left: 55%;
         opacity: .6;
     }
     
@@ -838,7 +837,7 @@ footer  a:hover {
         background-color: black;
         position: absolute;
         margin-top: -10.9%;
-        left: 94%;
+        left: 91%;
         opacity: .6;
     }
     
@@ -846,7 +845,7 @@ footer  a:hover {
         margin-top: 2%;
         border-radius: 50%;
         position: relative;
-        left: 63%;
+        left: 58%;
         transition: transform .5s;
     }
     
@@ -871,11 +870,10 @@ footer  a:hover {
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
         margin-left: 35px;
-        margin-right: -230px;
+        margin-right: -210px;
         padding: 3px;
         transition: transform .5s;
         background-color:#d9c2a3;
-        border-radius: 5%;
         position: relative;}
     
     .gift-msg:hover {
@@ -948,8 +946,8 @@ footer  a:hover {
 
     .footer-title {
         font-size: 20px;
-        margin-left: 50%;
-        margin-right: -55%;
+        margin-left: 45%;
+        margin-right: -50%;
     }
     
 }
