@@ -379,7 +379,6 @@ div .president {
     margin: 10px;
     padding: 3px;
     transition: transform .5s;
-    background-color:#d9c2a3;
     position: relative;}
 
 .gift-msg:hover {
