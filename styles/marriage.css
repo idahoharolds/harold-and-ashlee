@@ -236,13 +236,11 @@ label {
 .right-flower {
     position: absolute;
     top: 35%;
-    left: 3%;
+    left: 13%;
 }
 
 .our_photo {
     width: 50%;
-    box-shadow: 5px 10px 10px black;
-    border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
 .our_photo:hover {
@@ -611,7 +609,7 @@ footer  a:hover {
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
         margin-left: 5%;
-        margin-right: -55%;
+        margin-right: -50%;
     }
 
     .prophet {
@@ -706,28 +704,31 @@ footer  a:hover {
         text-align: center;
     }
     
-    
     .flower-parent {
         position: relative;
     }
     
+    .space {
+        position: absolute;
+        top: 35%;
+        left: 135%;
+    }
+
     .left-flower {
         position: absolute;
         top: 35%;
-        left: 120%;
+        left: 128%;
     }
     
     .right-flower {
         position: absolute;
         top: 35%;
-        left: -15%;
+        left: 10%;
     }
     
     .our_photo {
         width: 100%;
-        margin-left: 25%;
-        box-shadow: 5px 10px 10px black;
-        border: 10px solid #d9c2a3;    transition: transform .5s;
+        margin-left: 27%;
     }
     
     .our_photo:hover {
