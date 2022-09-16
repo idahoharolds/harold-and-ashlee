@@ -11,19 +11,21 @@ font-family: 'Source Sans Pro', sans-serif; */
 }
 
 body {
-    background-color: white;
+    background-color: #ECF6FF;
     margin: 0;
 }
 
-/*Heading content*/
+/*Heading content
 .heart {
     margin-left: 43.5%;
-}
+}*/
+
+
 
 .design {
-    margin-left: 0%;
+    margin-left: 10%;
     height: 40%;
-    width: 40%;
+    width: 80%;
 }
 
 nav {
@@ -126,9 +128,9 @@ div .header-fourth {
 
 /*SECONDARY*/
 .flower-sign {
-    margin-left: 39%;
+    margin-left: 38%;
     margin-top: 180px;
-    height: 100px;
+    height: 70px;
 }
 
 div .ourstory {
@@ -138,12 +140,18 @@ div .ourstory {
     text-align: center;
 }
 
-/*div .story-msg {
-    letter-spacing: 1.5px;
+div .story-msg {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Ibarra Real Nova', serif; 
-}*/
+}
+
+.prophet {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif; 
+    left: 38%;
+}
 
 .ashlee {
     margin-left: 5%;
@@ -228,15 +236,19 @@ label {
 }
 
 .left-flower {
+    height: 30%;
+    width: 30%;
     position: absolute;
     top: 35%;
-    left: 81%;
+    left: 0%;
 }
 
 .right-flower {
+    height: 30%;
+    width: 30%;
     position: absolute;
     top: 35%;
-    left: 13%;
+    left: 70%;
 }
 
 .our_photo {
@@ -276,9 +288,9 @@ div .testimony {
 }
 
 .testimony-symbol {
-    height: 100px;
+    height: 70px;
     position: relative;
-    left: 25%;
+    left: 38%;
     top: 83px;
 }
 
@@ -302,7 +314,7 @@ div .our_testimony {
     color: black;
     border: black solid 5px;
     width: 80%;
-    margin-top: -3%;
+    margin-top: -6%;
     margin-left: 10%;
     padding-bottom: 5px;
     font-size: 40px;
@@ -311,8 +323,9 @@ div .our_testimony {
 
 div .quote-sign {
     position: relative;
+    width: 15%;
     text-align: center;
-    left: 45%;
+    left: 43%;
 }
 
 div .president {
@@ -475,6 +488,7 @@ footer  a:hover {
         height: 80%;
         width: 80%;
     }
+
     
     nav {
         display: flex;
@@ -710,7 +724,7 @@ footer  a:hover {
     
     .space {
         position: absolute;
-        top: 35%;
+        top: 55%;
         left: 135%;
     }
 
@@ -873,7 +887,6 @@ footer  a:hover {
         margin-right: -210px;
         padding: 3px;
         transition: transform .5s;
-        background-color:#d9c2a3;
         position: relative;}
     
     .gift-msg:hover {
