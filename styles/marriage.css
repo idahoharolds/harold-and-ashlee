@@ -30,7 +30,7 @@ body {
 
 nav {
     display: flex;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: abhaya;
     transition: transform .5s;
 }
 
@@ -48,6 +48,7 @@ nav a {
 nav a:hover {
     color: violet;
     transform: scale(1.1);
+    text-decoration: underline; 
 }
 
 /*Introduction*/
@@ -122,8 +123,6 @@ div .header-fourth {
     margin-left: 4%;
     width: 90%;
     height: 100%;
-    box-shadow: 5px 10px 10px rgb(56, 55, 55);
-    border: 10px solid #d9c2a3;    transition: transform .5s;
 }
 
 /*SECONDARY*/
@@ -252,7 +251,7 @@ label {
 }
 
 .our_photo {
-    width: 50%;
+    width: 60%;
 }
 
 .our_photo:hover {
@@ -361,10 +360,11 @@ div .president {
 }
 
 .courting {
+    width: 40%;
     margin-top: 2%;
     border-radius: 50%;
     position: relative;
-    left: 42%;
+    left: 31%;
     transition: transform .5s;
 }
 
@@ -379,8 +379,6 @@ div .president {
 .boquet {
     width: 60%;
     height: 60%;
-    box-shadow: 5px 10px 10px black;
-    border: 2px solid #d9c2a3;    transition: transform .5s;
 }
 
 .gift-msg {
