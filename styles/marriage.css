@@ -148,12 +148,6 @@ div .header-fourth {
 }
 
 /*SECONDARY*/
-.flower-sign {
-    margin-left: 38%;
-    margin-top: 180px;
-    height: 70px;
-}
-
 div .ourstory {
     margin-top: 7%;
     font-size: 50px;
@@ -512,19 +506,15 @@ footer  a:hover {
     }
         
     body {
-        background-color: white;
+        background-color: #ECF6FF;
         margin: 0;
     }
     
     /*Heading content*/
-    .heart {    
-        margin-left: 65%;
-    }
-    
     .design {
-        margin-left: 0%;
+        margin-left: 5%;
         height: 80%;
-        width: 80%;
+        width: 120%;
     }
 
     
@@ -640,14 +630,9 @@ footer  a:hover {
     }
     
     /*SECONDARY*/
-    .flower-sign {
-        margin-left: 63%;
-        margin-top: 180px;
-        height: 70px;
-    }
-    
+   
     div .ourstory {
-        margin-top: -2%;
+        margin-top: 17%;
         margin-left: 40%;
         margin-right: -90px;
         font-size: 50px;
@@ -668,7 +653,7 @@ footer  a:hover {
         text-align: center;
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
-        margin-left: 53%;
+        margin-left: -35%;
         margin-right: -45px;
     }
 
@@ -820,7 +805,7 @@ footer  a:hover {
     .testimony-symbol {
         height: 100px;
         position: relative;
-        left: 20%;
+        left: 38%;
         top: 83px;
     }
     
@@ -857,8 +842,9 @@ footer  a:hover {
     
     div .quote-sign {
         position: relative;
-        margin-top: 50%;
-        margin-left: 330%;
+        width: 40%;
+        margin-top: 2%;
+        margin-left: 18%;
     }
     
     div .president {
@@ -894,6 +880,7 @@ footer  a:hover {
     }
     
     .courting {
+        width: 50%;
         margin-top: 2%;
         border-radius: 50%;
         position: relative;
@@ -986,7 +973,7 @@ footer  a:hover {
         position: static;
         letter-spacing: 10px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -1000,5 +987,18 @@ footer  a:hover {
         margin-left: 45%;
         margin-right: -50%;
     }
+
+    /*PHOTOS*/
+    .soon {
+    width: 100%;
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+    /*GIFTS*/
+    .gifts-courting {
+    width: 50%;
+}   
     
 }
