@@ -37,7 +37,6 @@ body {
 
 #header-content {
     max-width: 100%;
-background-color: #d9c2a3;
 }
 
 nav {
@@ -461,7 +460,6 @@ div .president {
 }
 
 .footer-a {
-   background-color: #d9c2a3;
    display: flex;
 }
 
