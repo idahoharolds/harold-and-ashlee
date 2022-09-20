@@ -489,6 +489,12 @@ footer  a:hover {
 }
 
 /*PHOTOS*/
+.photos-courting {
+    position: relative;
+    width: 50%;
+    left: 0%;
+}
+
 .soon {
     width: 80%;
     height: 80%;
@@ -498,6 +504,8 @@ footer  a:hover {
 
 /*GIFTS*/
 .gifts-courting {
+    position: relative;
+    left: 1%;
     width: 30%;
 }
 @media all and (max-width: 900px) {
@@ -633,7 +641,7 @@ footer  a:hover {
     /*SECONDARY*/
    
     div .ourstory {
-        margin-top: 17%;
+        margin-top: 18%;
         margin-left: 40%;
         margin-right: -90px;
         font-size: 50px;
@@ -646,7 +654,7 @@ footer  a:hover {
         text-align: center;
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif; 
-        margin-left: 5%;
+        margin-left: 9%;
         margin-right: -50%;
     }
 
