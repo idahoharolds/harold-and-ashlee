@@ -460,7 +460,7 @@ div .president {
     margin: 0 auto;
 }
 
-footer {
+.footer-a {
    background-color: #d9c2a3;
    display: flex;
 }
@@ -755,13 +755,21 @@ footer  a:hover {
     .left-flower {
         position: absolute;
         top: 35%;
-        left: 128%;
+        width: 50%;
+        left: 100%;
+    }
+
+    .space-flower {
+        position: relative;
+        left: 130%;
+        width: 30%;
     }
     
     .right-flower {
         position: absolute;
         top: 35%;
-        left: 10%;
+        width: 50%;
+        left: 5%;
     }
     
     .our_photo {
