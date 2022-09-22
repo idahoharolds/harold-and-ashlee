@@ -2,7 +2,7 @@
 /* font-family: 'Dancing Script', cursive;
 font-family: 'Ibarra Real Nova', serif;
 font-family: 'Source Sans Pro', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Dancing+Script:wght@600&family=GFS+Didot&family=Ibarra+Real+Nova&family=Julius+Sans+One&display=swap');
 
 
 #content {
@@ -48,12 +48,12 @@ nav {
 nav a {
     letter-spacing: 10px;
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     text-decoration: none; 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 17.5%;
+    padding-top: 40px;
+    padding-bottom: -10px;
+    margin-left: 15.4%;
 }
 
 nav a::after {
@@ -85,11 +85,11 @@ div .header-first {
 
 div .header-second {   
     letter-spacing: 3px;
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 60px;
+    font-family: 'Alex Brush';
+    font-size: 90px;
     color: black;
     margin-top: -1%;
-    margin-left: 26%
+    margin-left: 20%
 }
 
 div .header-third {
@@ -98,8 +98,8 @@ div .header-third {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
     color: black;
-    margin-top: -2%;
-    margin-left: 41%;
+    margin-top: -8%;
+    margin-left: 42%;
 }
 
 .parent-line {
@@ -114,7 +114,7 @@ div .header-third {
     background-color: black;
     position: absolute;
     margin-top: -3.1%;
-    left: 31%;
+    left: 32%;
     opacity: .6;
 }
 
@@ -126,24 +126,25 @@ div .header-third {
     background-color: black;
     position: absolute;
     margin-top: -3.1%;
-    left: 58.5%;
+    left: 59.5%;
     opacity: .6;
 }
 
 div .header-fourth {
     letter-spacing: 3px;
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
-    margin-left: 39.5%;
+    margin-left: 24%;
 }
 
 .prenup {
     border-radius: 20px;
     margin-top: 5%;
-    margin-left: 4%;
-    width: 90%;
+    margin-left: -10%;
+    width: 120%;
     height: 100%;
+    box-shadow: 5px 5px 10px black;
 }
 
 /*SECONDARY*/
@@ -265,11 +266,12 @@ label {
     width: 30%;
     position: absolute;
     top: 35%;
-    left: 70%;
+    left: 71%;
 }
 
 .our_photo {
     width: 60%;
+    box-shadow: 5px 5px 10px black;
 }
 
 .our_photo:hover {
@@ -397,8 +399,8 @@ div .president {
 }
 
 .boquet {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    box-shadow: 5px 5px 10px black;
 }
 
 .gift-msg {
@@ -455,31 +457,34 @@ div .president {
 
 /*Footer content*/
 #footer-content {
-    max-width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .footer-a {
-   display: flex;
+   padding: 15px;
+   background-color: peachpuff;
+   position: relative;
 }
 
 footer a {
     color: black;
-    position: static;
+    position: relative;
     letter-spacing: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Ibarra Real Nova', serif;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 20%;
+    padding-left: 16.5%;
     margin-left: 1.5%;
     transition: transform .5s;
 }
 
 .footer-title {
+    position: relative;
     font-size: 20px;
-    margin-left: 43%;
+    margin-left: 38%;
 }
 
 footer  a:hover {
@@ -489,7 +494,7 @@ footer  a:hover {
 /*PHOTOS*/
 .photos-courting {
     position: relative;
-    width: 50%;
+    width: 30%;
     left: 0%;
 }
 
@@ -988,7 +993,7 @@ footer  a:hover {
         position: static;
         letter-spacing: 10px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 30px;
         font-family: 'Ibarra Real Nova', serif;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -1012,7 +1017,7 @@ footer  a:hover {
 }
 
     .photos-courting {
-    width: 70%;
+    width: 50%;
     left: 31%;
     }
 
