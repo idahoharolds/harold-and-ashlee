@@ -135,7 +135,7 @@ div .header-fourth {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
     color: black;
-    margin-left: 24%;
+    margin-left: 43%;
 }
 
 .prenup {
@@ -626,8 +626,9 @@ footer  a:hover {
         font-family: 'Ibarra Real Nova', serif;
         font-size: 20px;
         color: black;
-        margin-left: 59%;
-        margin-right: -50%;
+        text-align: center;
+        margin-left: 55%;
+        margin-right: -10%;
     }
     
     .prenup {
