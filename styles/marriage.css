@@ -230,6 +230,10 @@ div .story-msg {
     visibility: visible;
 }
 
+.first-meet {
+    width: 100%;
+}
+
 .harold-content {
     display: none;
     transition: 0.5s linear;  
