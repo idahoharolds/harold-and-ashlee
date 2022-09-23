@@ -135,7 +135,21 @@ div .header-fourth {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
     color: black;
-    margin-left: 43%;
+    margin-left: 24%;
+}
+
+.fourth {
+    position: relative;
+}
+
+.manila-temple {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+    color: black;
+    margin-top: -3.8%;
+    margin-left: 45%;
 }
 
 .prenup {
@@ -629,6 +643,13 @@ footer  a:hover {
         text-align: center;
         margin-left: 55%;
         margin-right: -10%;
+    }
+
+    .manila-temple {
+        position: relative;
+        margin-left: 12%;
+        margin-right: -50%;
+        text-align: center;
     }
     
     .prenup {
