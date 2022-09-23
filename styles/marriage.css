@@ -271,7 +271,7 @@ label {
 
 .our_photo {
     width: 60%;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 10px black;
 }
 
 .our_photo:hover {
@@ -322,12 +322,6 @@ div .our_testimony {
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
     transition: transform .5s;
-}
-
-.our_testimony:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 10px #6f7364;
-    background-color: #d9c2a3;
 }
 
 .quote {    
@@ -399,8 +393,7 @@ div .president {
 }
 
 .boquet {
-    width: 50%;
-    box-shadow: 5px 5px 10px black;
+    width: 80%;
 }
 
 .gift-msg {
@@ -478,6 +471,7 @@ footer a {
     margin-bottom: 20px;
     padding-left: 16.5%;
     margin-left: 1.5%;
+    margin-right: -5%;
     transition: transform .5s;
 }
 
@@ -624,7 +618,7 @@ footer  a:hover {
     }
     
     div .header-fourth {
-        letter-spacing: 2px;
+        letter-spacing: 3px;
         font-family: 'Ibarra Real Nova', serif;
         font-size: 20px;
         color: black;
@@ -836,12 +830,6 @@ footer  a:hover {
         font-size: 25px;
         font-family: 'Ibarra Real Nova', serif;
         transition: transform .5s;
-    }
-    
-    .our_testimony:hover {
-        transform: scale(1.1);
-        box-shadow: 5px 5px 10px #6f7364;
-        background-color: #d9c2a3;
     }
     
     .quote {    
